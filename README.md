@@ -3,7 +3,7 @@ Helps quick apply to a plethora of jobs available on Handshake, specifically, th
 
 This project automates job applications on the Handshake platform using Selenium and the Chrome WebDriver. It simulates user actions to log in, navigate to job postings, and apply to jobs based on certain conditions.
 
-Features
+#Features
     Login Automation: Automates the login process using credentials stored in environment variables.
     Job Posting Scraper: Navigates to job postings and extracts job details.
     Automated Application: Automatically applies to job postings where the application requirements are already satisfied or       minimal user input is needed.
@@ -40,7 +40,10 @@ To run the script, follow these steps:
 
     Open a terminal and navigate to the project directory.
     Run the Python script:
-      python your_script_name.py
+      python AutomatedHandshake.py
+
+I personally open a terminal in VSCode and run it through there as it is waay easier to start and stop it when necessary.
+
 The script will:
     Open Chrome and navigate to the Handshake login page.
     Log in using your credentials.
