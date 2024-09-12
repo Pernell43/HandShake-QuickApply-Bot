@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-service = Service(ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service)
+service = Service(ChromeDriverManager().install()) #This conveniently handles the annoying chrome driver logic for you
+driver = webdriver.Chrome(service=service)         #So you don't have to install everything yourself as that was annoying for me
 
 # Context, put the site in full screen just in case
 context = { #This context can be used for when you device to implement some sort of AI to generate Cover Letters
